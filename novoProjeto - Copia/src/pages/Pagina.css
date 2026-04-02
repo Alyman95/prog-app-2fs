@@ -1,0 +1,14 @@
+.cont-Home{
+    background-color: aquamarine;
+    flex: 1;
+}
+.cont-fileh{
+    background-color: bisque;
+    flex: 1;
+    
+}
+.cont-Elite{
+    background-color: blue;
+    flex: 1;
+
+}
