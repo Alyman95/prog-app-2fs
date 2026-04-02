@@ -2,12 +2,16 @@
   min-height: 100vh;
   display: flex;
 flex-direction: column;
+
 }
 
 
 .cont-header{
   background-color:green;
   height: 100px; 
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 
   
 }
@@ -15,4 +19,17 @@ flex-direction: column;
 .cont-main{
   background-color: brown;
   flex: 1;
+  display: flex;
+}
+.botoes-nav{
+  border:none;
+  padding: 5px;
+  background-color:green
+
+}
+.botoes-nav:hover{
+  background-color: purple;
+  border:100px
+  
+
 }
