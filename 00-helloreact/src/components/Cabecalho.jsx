@@ -2,7 +2,7 @@
 function Cabecalho() {
     return (
         <header>
-            <p>oi,</p>
+            <p>Oi, sou eu o cabeçalho</p>
         </header>
     )
 }

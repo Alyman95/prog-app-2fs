@@ -1,25 +1,30 @@
 
 function Notas() {
-    function somarnotas(){
-        let soma = Number (prompt("Digite sua nota:"))}
-        if(soma === 100){
-            alert("Sua letra é 'A' ")
 
-        }else if(soma === 60){
-            alert("Sua letra é 'B'")
-        }else if(soma === 40){
-            alert("Sua letra é 'C'")
-        }else if(soma === 30){
-            alert("Sua letra é 'D'")
-        }else if(soma === 20){
-            alert("Sua letra é 'E'")
+    function classificarNota(){
+        let nota = Number(prompt("Digite a nota (0 a 100):"))
+        // if(nota > 100 || nota < 0){
+        //     alert("Deu ruim")
+        // }else 
+        if(nota > 80 && nota <= 100){
+            alert("A")
+        }else if(nota > 60){
+            alert("B")
+        }else if(nota > 40){
+            alert("C")
+        }else if(nota > 20){
+            alert("D")
+        }else if(nota > 0){
+            alert("E")
         }
-            
-        
-    }   
-    {return (
+        else{
+            alert("Deu ruim")
+        }
+    }
+    return (
         <div>
-            <h2>notas</h2>
+            <h2>Classificação de notas - sq2-7</h2>
+            <button onClick={classificarNota}>Classificar nota</button>
         </div>
     )
 }

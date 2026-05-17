@@ -1,16 +1,18 @@
 
 import './App.css'
 import Iconify from './components/Iconify';
-import Entrevista from './components/Entrevista';
+import Tabuada from './components/Tabuada';
+import Render from './components/Render';
 
 
 function App() {
 
   return (
     <>
-  <h1>02 - icones</h1>
-  <Iconify />
-  <Entrevista/>
+      <h1>02 - Ícones</h1>
+      <Render />
+      <Tabuada />
+      <Iconify />
     </>
   )
 }
