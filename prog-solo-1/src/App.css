@@ -1,0 +1,19 @@
+*{ 
+  background-color: brown;
+  text-align: center;
+}
+
+body{
+  text-align: center;
+  display: flex;
+  text-align: center;
+}
+
+h1{
+  color: whitesmoke;
+  text-align: center;
+}
+
+input{
+  text-align: center;
+}
